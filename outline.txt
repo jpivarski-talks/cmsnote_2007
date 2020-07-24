@@ -1,0 +1,92 @@
+====    Alignment of the CMS Muon System with the HIP Algorithm    ====
+                     ==== The Long Version ====
+
+A little introduction to the HIP algorithm and the geometry of the
+muon system
+
+Nominal procedure (default, standard of comparison):
+
+    10 pb^-1 of high pT tracks (from Z's and W's)
+
+    number of hits cuts on tracks, pull cut on hits
+
+    Initial misalignment: the Muon10InvPbScenario with residual layer
+    misalignments (to be determined from layer alignment studies)
+
+    chamber-by-chamber (CSC and DT) x, phiy, phiz float?  can we relax
+    this, letting y and phix float, too?  Not for DT station 4, of course...
+
+    globalMuon APE scheme: starts large, descends rapidly, converges
+    in a few iterations
+
+    standAloneMuon APE scheme: less steep, but relevant
+
+Diagnostics:
+
+    output alignment parameter uncertainties (are they broken?  why
+    are they ~4 times too big?): do they scale with residual
+    misalignment?
+
+    if not, is there any other way to identify chambers with poor
+    convergence?  do they have fewer hits?
+
+Performance issues:
+
+    How does this scale with number of tracks (convert to pb^-1 of W,
+    Z, and if possible, a generic muon sample with a cut)
+
+    How much computer time does this take?  (per iteration, and how
+    many iterations are necessary?)
+
+Special alignments:
+
+    Quick disk alignment: how much data do we need to do this if the
+    chambers and layers are also misaligned?  (With ideal chambers,
+    it's very quick! :)
+
+    CSC Layer alignments: what is the nominal procedure, what degrees
+    of freedom can we align, and how much data do we need to do it?
+
+    Beam halo alignment of CSC layers--- will we have this by then?
+
+Systematics studies:
+
+    How does the globalMuon strategy depend on tracker alignment?
+    (Initial studies suggest that the dependence is *very* weak.  Is
+    there anything wrong with my studies?)
+
+    How does resolution depend on the momentum of the input tracks?
+    Use J/psis to do an alignment if you have enough; otherwise, just
+    compare width of the residuals distributions.
+
+    What happens if we use different sets of fitting parameters?  I
+    don't see much difference yet, but I haven't tried dropping "y"
+    degrees of freedom.
+
+    How well does alignment fare if we have a miscalibrated detector?
+
+    "Dependence on tracking algorithm"
+
+        Change the distribution of material in track-fitting but not
+        in SimHit generation to simulate incorrect material
+        description
+
+        Same for magnetic field modeling
+
+            How does alignment differ between positive and negative
+            tracks?  Can we cancel the effect by requiring equal
+            populations?
+
+        If I'm very adventurous, I may try plugging in different
+        tracking algorithms.  I don't know how easy that is.
+
+    Background studies
+
+        Align with realistic backgrounds from CSA07
+
+        What are the optimized track quality cuts?
+
+Conclusion:
+
+    It works very, very, very well.
+

@@ -1,0 +1,176 @@
+\documentclass[12pt]{article}
+
+\oddsidemargin  -0.5 cm
+\evensidemargin 0.0 cm
+\textwidth      6.5in
+\headheight     0.0in
+\topmargin      -1 cm
+\textheight=9.8in
+
+\title{Alignment of the CMS Muon System \\ with the HIP Algorithm}
+\author{Jim Pivarski}
+
+\begin{document}
+\maketitle
+
+\section{Introduction to the HIP algorithm and the geometry of the muon system}
+
+{\it (I copied the following from
+https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonAlignAlgos.  The
+CMS Note introduction won't be quite as short and technical--- it will
+either be longer or contain less detail.)}
+
+The HIP algorithm (Hits and Impact Points) is an iterative algorithm
+for aligning detectors. It decouples the correlation between
+track-fitting and detector alignment by alternating between the two,
+hopefully converging to a solution that optimizes both. The alignment
+step of the HIP algorithm is very simple: chambers are moved in such a
+way as to make the weighted mean of their residuals distribution zero
+before refitting. (A residual is the difference between the local
+position of a hit and the track's extrapolation to the detector
+surface, called the impact point.) In the one-dimensional case, an x
+alignment correction is equal to the negative of the weighted mean of
+the x residual distribution. In general, x and y residuals (if the
+latter are available) are transformed to the 6-dimensional space of
+parameters x, y, z, phix, phiy, and phiz (assuming all 6 parameters
+are selected for alignment), through a 6x2 Jacobian matrix. The
+weighted mean generalizes into a matrix equation involving a matrix
+inversion that is at most 6x6, for every detector. Most of the
+computational effort is in re-fitting tracks and producing updated
+residuals distributions between each iteration. (See CMS NOTE
+2006/018.)
+
+The muon system forms a barrel and an endcap around the CMS detector
+composed of 790 large (meter-scale) independently-alignable
+sensors. Disks and wheels are the largest independently-alignable
+structures (tens of meters), each of which holds dozens of
+chambers. Alignment of the 6-12 layers and superlayers inside the
+chambers must also be considered, though probably only once, with high
+statistics. More detail about these issues and progress in solving
+them will be available at SomePageThatDoesntExist?; the following is
+an introduction to a software system that can compute these
+alignments, given a dataset in CMSSW.
+
+\section{Nominal procedure}
+
+default, standard of comparison
+
+10 pb$^{-1}$ of high $p_T$ tracks (from $Z$'s and $W$'s)
+
+number of hits cuts on tracks, pull cut on hits
+
+Initial misalignment: the Muon10InvPbScenario with residual layer
+misalignments (to be determined from layer alignment studies)
+
+chamber-by-chamber (CSC and DT) x, phiy, phiz float?  can we relax
+this, letting y and phix float, too?  Not for DT station 4, of course...
+
+globalMuon APE scheme: starts large, descends rapidly, converges
+in a few iterations
+
+standAloneMuon APE scheme: less steep, but relevant
+
+\section{Accuracy and Precision}
+
+output alignment parameter uncertainties (are they broken?  why
+are they $\sim$4 times too big?): do they scale with residual
+misalignment?
+
+if not, is there any other way to identify chambers with poor
+convergence?  do they have fewer hits?
+
+\section{Performance issues}
+
+How does this scale with number of tracks (convert to pb$^{-1}$ of $W$,
+$Z$, and if possible, a generic muon sample with a cut)
+
+How much computer time does this take?  (per iteration, and how
+many iterations are necessary?)
+
+\section{Special alignments}
+
+\subsection{Quick disk alignment}
+
+how much data do we need to do this if the
+chambers and layers are also misaligned?  (With ideal chambers,
+it's very quick! {\tt :)}
+
+MC and MTCC (compare with known x = 7 mm, y = 1 mm in MTCC phase II)
+
+\subsection{CSC Layer alignments}
+
+what is the nominal procedure, what degrees
+of freedom can we align, and how much data do we need to do it?
+
+MC and MTCC
+
+this will probably include Karoly's work: his plots with our results overlaid
+
+\section{Beam halo alignment of CSC layers}
+
+will we have this before data-taking?
+
+New information from Karoly: no problem for inner ring, outer ring may
+have 0.8 million muons, though heavily emphasizing the inner radius part
+
+\section{Systematics studies}
+
+\subsection{Dependence on tracker alignment}
+
+How does the globalMuon strategy depend on tracker alignment?
+(Initial studies suggest that the dependence is {\it very} weak.  Is
+there anything wrong with my studies?)
+
+New information: it looks like my procedure is working.  Dependence on
+tracker alignment is probably {\it very weak!}  I need to pull this
+together into a coherent story, with plots.
+
+\subsection{Dependence on momentum}
+
+How does resolution depend on the momentum of the input tracks?
+Use $J/\psi$s to do an alignment if you have enough; otherwise, just
+compare width of the residuals distributions.
+
+\subsection{Dependence on fitting parameters}
+
+What happens if we use different sets of fitting parameters?  I
+don't see much difference yet, but I haven't tried dropping "y"
+degrees of freedom.
+
+\subsection{Correlation between alignment and calibration}
+
+How well does alignment fare if we have a miscalibrated detector?
+
+\subsection{``Dependence on tracking algorithm''}
+
+\subsubsection{Uncertainty in material distribution}
+Change the distribution of material in track-fitting but not
+in SimHit generation to simulate incorrect material
+description
+
+\subsubsection{Uncertainty in magnetic field}
+
+Same for magnetic field modeling
+
+\subsubsection{Dependence on track charge}
+
+How does alignment differ between positive and negative
+tracks?  Can we cancel the effect by requiring equal
+populations?
+
+\subsubsection{Depdence on the actual algorithm used in tracking}
+
+If I'm very adventurous, I may try plugging in different
+tracking algorithms.  I don't know how easy that is.
+
+\subsection{Background studies}
+
+Align with realistic backgrounds from CSA07
+
+What are the optimized track quality cuts?
+
+\section{Conclusion}
+
+It works very, very, very well.
+
+\end{document}

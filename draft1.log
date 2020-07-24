@@ -1,0 +1,279 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2006.12.19)  29 AUG 2007 18:50
+entering extended mode
+**draft1.tex
+(./draft1.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(/usr/share/texmf-tetex/tex/latex/base/article.cls
+Document Class: article 2004/02/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-tetex/tex/latex/base/size12.clo
+File: size12.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-tetex/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-tetex/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf-tetex/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (./draft1.aux)
+\openout1 = `draft1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+(/usr/share/texmf-tetex/tex/context/base/supp-pdf.tex
+(/usr/share/texmf-tetex/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count88
+\scratchcounter=\count89
+\scratchtoks=\toks15
+\scratchdimen=\dimen105
+\scratchskip=\skip43
+\scratchmuskip=\muskip10
+\scratchbox=\box26
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen106
+\onepoint=\dimen107
+\onebasepoint=\dimen108
+\minusone=\count90
+\thousandpoint=\dimen109
+\onerealpoint=\dimen110
+\emptytoks=\toks16
+\nextbox=\box27
+\nextdepth=\dimen111
+\everyline=\toks17
+\!!counta=\count91
+\!!countb=\count92
+\recursecounter=\count93
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen112
+\MPnumerator=\count97
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 17.
+
+
+LaTeX Warning: Citation `alignment_needed_for_tev' on page 1 undefined on input
+ line 24.
+
+
+LaTeX Warning: Citation `hardware_alignment' on page 1 undefined on input line 
+25.
+
+
+LaTeX Warning: Citation `hip_algorithm' on page 1 undefined on input line 45.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 55.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 55.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 55.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<intro/muon_system_labeled.pdf, id=29, 370.38374pt x 276.03125pt>
+File: intro/muon_system_labeled.pdf Graphic file (type pdf)
+
+<use intro/muon_system_labeled.pdf>
+
+LaTeX Warning: Citation `drift_tubes' on page 2 undefined on input line 118.
+
+<intro/csc_chamber.png, id=30, 440.64626pt x 635.37375pt>
+File: intro/csc_chamber.png Graphic file (type png)
+
+<use intro/csc_chamber.png> [2]
+
+LaTeX Warning: Citation `doubling_up_me11' on page 3 undefined on input line 16
+6.
+
+
+LaTeX Warning: Citation `intrinsic_dt_resolution' on page 3 undefined on input 
+line 171.
+
+
+LaTeX Warning: Citation `intrinsic_csc_resolution' on page 3 undefined on input
+ line 178.
+
+
+LaTeX Warning: Citation `dt_alignment_group' on page 3 undefined on input line 
+189.
+
+
+LaTeX Warning: Citation `csc_alignment_group' on page 3 undefined on input line
+ 190.
+
+[3 <./intro/muon_system_labeled.pdf>]
+
+LaTeX Warning: Citation `slide_in_field' on page 4 undefined on input line 197.
+
+
+[4 <./intro/csc_chamber.png>]
+
+LaTeX Warning: Citation `karoly_layer_misalignments' on page 5 undefined on inp
+ut line 253.
+
+[5]
+<disk_alignment/residuals_by_iteration.pdf, id=50, 362.35374pt x 569.12625pt>
+File: disk_alignment/residuals_by_iteration.pdf Graphic file (type pdf)
+
+<use disk_alignment/residuals_by_iteration.pdf>
+
+LaTeX Warning: Citation `alignment_software' on page 6 undefined on input line 
+347.
+
+
+LaTeX Warning: Citation `my_alignment_software' on page 6 undefined on input li
+ne 349.
+
+[6] <disk_alignment/phiz_conv_nominal.pdf, id=54, 394.47375pt x 569.12625pt>
+File: disk_alignment/phiz_conv_nominal.pdf Graphic file (type pdf)
+
+<use disk_alignment/phiz_conv_nominal.pdf>
+<disk_alignment/phiz_conv_barrel_roll.pdf, id=55, 394.47375pt x 569.12625pt>
+File: disk_alignment/phiz_conv_barrel_roll.pdf Graphic file (type pdf)
+
+<use disk_alignment/phiz_conv_barrel_roll.pdf> [7 <./disk_alignment/residuals_b
+y_iteration.pdf>]
+<disk_alignment/nominal_fits_color.pdf, id=106, 294.09875pt x 569.12625pt>
+File: disk_alignment/nominal_fits_color.pdf Graphic file (type pdf)
+
+<use disk_alignment/nominal_fits_color.pdf>
+<disk_alignment/vstracker2.pdf, id=107, 364.36125pt x 569.12625pt>
+File: disk_alignment/vstracker2.pdf Graphic file (type pdf)
+
+<use disk_alignment/vstracker2.pdf> [8 <./disk_alignment/phiz_conv_nominal.pdf>
+ <./disk_alignment/phiz_conv_barrel_roll.pdf>] [9 <./disk_alignment/nominal_fit
+s_color.pdf> <./disk_alignment/vstracker2.pdf>]
+<disk_alignment/alldt_3csc.pdf, id=286, 412.54124pt x 569.12625pt>
+File: disk_alignment/alldt_3csc.pdf Graphic file (type pdf)
+
+<use disk_alignment/alldt_3csc.pdf>
+<chamber_alignment/dof_x.pdf, id=287, 227.85126pt x 114.4275pt>
+File: chamber_alignment/dof_x.pdf Graphic file (type pdf)
+
+<use chamber_alignment/dof_x.pdf>
+<chamber_alignment/dof_y.pdf, id=288, 227.85126pt x 114.4275pt>
+File: chamber_alignment/dof_y.pdf Graphic file (type pdf)
+
+<use chamber_alignment/dof_y.pdf>
+<chamber_alignment/dof_z.pdf, id=289, 227.85126pt x 114.4275pt>
+File: chamber_alignment/dof_z.pdf Graphic file (type pdf)
+
+<use chamber_alignment/dof_z.pdf>
+<chamber_alignment/dof_phix.pdf, id=290, 227.85126pt x 114.4275pt>
+File: chamber_alignment/dof_phix.pdf Graphic file (type pdf)
+
+<use chamber_alignment/dof_phix.pdf>
+<chamber_alignment/dof_phiy.pdf, id=291, 227.85126pt x 114.4275pt>
+File: chamber_alignment/dof_phiy.pdf Graphic file (type pdf)
+
+<use chamber_alignment/dof_phiy.pdf>
+<chamber_alignment/dof_phiz.pdf, id=292, 227.85126pt x 114.4275pt>
+File: chamber_alignment/dof_phiz.pdf Graphic file (type pdf)
+
+<use chamber_alignment/dof_phiz.pdf>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 571.
+
+Overfull \hbox (3.1137pt too wide) in paragraph at lines 515--587
+ [] 
+ []
+
+<chamber_alignment/init_xresid_vs_y.pdf, id=293, 87.36577pt x 115.81853pt>
+File: chamber_alignment/init_xresid_vs_y.pdf Graphic file (type pdf)
+
+<use chamber_alignment/init_xresid_vs_y.pdf>
+<chamber_alignment/x_xresid_vs_y.pdf, id=294, 87.36577pt x 115.81853pt>
+File: chamber_alignment/x_xresid_vs_y.pdf Graphic file (type pdf)
+
+<use chamber_alignment/x_xresid_vs_y.pdf>
+<chamber_alignment/phiz_xresid_vs_y.pdf, id=295, 87.36577pt x 115.81853pt>
+File: chamber_alignment/phiz_xresid_vs_y.pdf Graphic file (type pdf)
+
+<use chamber_alignment/phiz_xresid_vs_y.pdf> [10] [11 <./disk_alignment/alldt_3
+csc.pdf>] [12 <./chamber_alignment/dof_x.pdf> <./chamber_alignment/dof_y.pdf> <
+./chamber_alignment/dof_z.pdf> <./chamber_alignment/dof_phix.pdf> <./chamber_al
+ignment/dof_phiy.pdf> <./chamber_alignment/dof_phiz.pdf> <./chamber_alignment/i
+nit_xresid_vs_y.pdf> <./chamber_alignment/x_xresid_vs_y.pdf> <./chamber_alignme
+nt/phiz_xresid_vs_y.pdf>] [13] [14] [15] (./draft1.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1030 strings out of 94500
+ 14343 string characters out of 1175787
+ 64009 words of memory out of 1000000
+ 4221 multiletter control sequences out of 10000+50000
+ 10559 words of font info for 37 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 8191
+ 25i,15n,21p,449b,410s stack positions out of 1500i,500n,5000p,200000b,5000s
+PDF statistics:
+ 432 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 86 words of extra memory for PDF output out of 65536
+</usr/share/texmf-tetex/fonts/type1/bluesky/cm/cmtt12.pfb></usr/share/texmf-t
+etex/fonts/type1/bluesky/cm/cmss10.pfb></usr/share/texmf-tetex/fonts/type1/blue
+sky/cm/cmmi10.pfb></usr/share/texmf-tetex/fonts/type1/bluesky/cm/cmmi6.pfb></us
+r/share/texmf-tetex/fonts/type1/bluesky/cm/cmti12.pfb></usr/share/texmf-tetex/f
+onts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf-tetex/fonts/type1/bluesky/cm/
+cmmi8.pfb></usr/share/texmf-tetex/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/t
+exmf-tetex/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf-tetex/fonts/type
+1/bluesky/cm/cmsy10.pfb></usr/share/texmf-tetex/fonts/type1/bluesky/cm/cmmi12.p
+fb></usr/share/texmf-tetex/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf-
+tetex/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf-tetex/fonts/type1/blue
+sky/cm/cmr17.pfb>
+Output written on draft1.pdf (15 pages, 555015 bytes).
